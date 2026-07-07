@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.raphimc.immediatelyfast.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClientConnectionMixin",
+    "EndCrystalItemMixin",
+    "ItemStackMixin",
+    "LivingEntityAccessor",
+    "WorldAccessor",
+    "EntityMixin"
+  ],
+  "client": [
+    "BufferRendererAccessor",
+    "CameraMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerAccessor",
+    "ClientPlayerInteractionManagerMixin",
+    "FrustumAccessor",
+    "GameRendererMixin",
+    "HandledScreenMixin",
+    "InGameHudMixin",
+    "KeyBindingAccessor",
+    "KeyBindingMixin",
+    "KeyboardMixin",
+    "MinecraftClientAccessor",
+    "MinecraftClientMixin",
+    "MouseHandlerAccessor",
+    "MouseMixin",
+    "OtherClientPlayerEntityAccessor",
+    "ScreenMixin",
+    "WorldRendererAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
